@@ -18,6 +18,8 @@
   "devices": [
   ],
   "privileged": [
+    "SYS_ADMIN",
+    "SYS_RAWIO"
   ],
   "init": false,
   "options": {
