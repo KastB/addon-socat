@@ -1,7 +1,7 @@
 {
   "name": "Socat",
   "version": "0.0.1",
-  "slug": "Socat",
+  "slug": "socat",
   "description": "Serial connection over network",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "url": "https://github.com/KastB/addon-socat",
