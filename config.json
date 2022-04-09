@@ -1,0 +1,33 @@
+{
+  "name": "Socat",
+  "version": "0.0.1",
+  "slug": "Socat",
+  "description": "Serial connection over network",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "url": "https://github.com/KastB/addon-socat",
+  "startup": "services",
+  "boot": "auto",
+  "panel_icon": "mdi:HomeFloorL",
+  "panel_title": "Socat",
+  "uart": true,
+  "gpio": false,
+  "map": ["config:rw"],
+  "host_network": false,
+  "environment": {
+  },
+  "devices": [
+  ],
+  "privileged": [
+  ],
+  "init": false,
+  "options": {
+    "SERVER": "",
+    "PORT": "",
+    "UART": "/dev/ttyV0",
+  },
+  "schema": {
+    "SERVER": "str",
+    "PORT": "str",
+    "UART": "str",
+  }
+}

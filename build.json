@@ -1,0 +1,11 @@
+{
+    "build_from": {
+      "amd64": "amd64/ubuntu",
+      "armhf": "armhf/ubuntu",
+      "armv7": "arm32v7/ubuntu",
+      "i386": "i386/ubuntu",
+      "aarch64": "arm64v8/ubuntu"
+    },
+    "args": {
+    }
+  }
