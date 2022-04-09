@@ -23,11 +23,11 @@
   "options": {
     "SERVER": "",
     "PORT": "",
-    "UART": "/dev/ttyV0",
+    "UART": "/dev/ttyV0"
   },
   "schema": {
     "SERVER": "str",
     "PORT": "str",
-    "UART": "str",
+    "UART": "str"
   }
 }
